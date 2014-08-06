@@ -1,6 +1,10 @@
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'cards',
+        'NAME': 'insync',
+        'USER': 'postgres',
+        'PASSWORD':'password',
+
+
     }
 }
